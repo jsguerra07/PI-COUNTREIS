@@ -19,7 +19,40 @@
     
   }
 
-  .cardContainer :hover {
-    background-color: whitesmoke;
-    /* box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); */
+  .cardContent {
+    display:flex;
+    flex-direction: column;
+  }
+
+  .cardContent > h3 {
+    margin:7px;
+    font-size: 1em;
+    text-decoration: none;
+
+  }
+  .cardContent > h5 {
+    margin:3px;
+    color: whitesmoke;
+  }
+
+  .singleButtonContainer {
+    margin: 1rem;  
+    background: rgba(49, 48, 53, 255);  
+    color: rgba(8, 131, 250, 255);
+    font-weight: bold;
+    border-radius: 0.6rem;
+    border: none;
+    cursor: pointer; 
+    font-size: 1em;
+    padding: 1rem;
+    min-width: 10em;
+    min-height: 2em;
+    position: relative;
+    transition: all 0.4s;
+    
+  }
+  .singleButtonContainer:hover {
+    background: whitesmoke;  
+    color: black;
+    
   }

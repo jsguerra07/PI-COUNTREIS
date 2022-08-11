@@ -1,5 +1,6 @@
 .prueba {
     display: flex;
+    align-items: center;
     list-style: none
 }
 
@@ -20,6 +21,26 @@
         
 }
 .singleButtonPagination:hover {
+    background: whitesmoke;  
+    color: black;
+}
+
+.singleButtonPaginationActive{
+    background: whitesmoke;  
+    color: black;
+    border-radius: 0.6rem;
+    border: none;
+    cursor: pointer; 
+    font-size: 1em;
+    padding: 1rem;
+    min-width: 10em;
+    min-height: 2em;
+    position: relative;
+    transition: all 0.4s;
+    margin: 5px;
+}
+
+.singleButtonPaginationActive:hover {
     background: whitesmoke;  
     color: black;
 }

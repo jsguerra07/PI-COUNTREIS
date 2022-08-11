@@ -20,24 +20,41 @@
     
   }
 
+  .landingPageHeader {
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 90px;
+    padding: 10px;
+  }
+  .landingPageHeader > h1{
+    color: black;
+  }
+
   .landingPageFormContainer{
     margin:2rem;
+    background-image: url(https://media.gettyimages.com/illustrations/world-flags-background-illustration-id486936933?s=612x612);
     background-color: rgba(28, 28, 30, 255);
     border-radius: 1rem;
     padding: 1.5rem
   }
-
+  .landingPageFormContainer > p{
+    color: whitesmoke;
+    text-decoration: bold ;
+  }
   .landingPageContainer{
     
     background-color: rgb(0, 0, 0);
-    padding:7rem
+    padding:2rem
     /* border-radius: 1rem;
     padding: 1.5rem;
     margin:2rem; */
   }
 
   .imgLanding{
-    width: 70%
+    width: 50%
   }
 
   .h2Landing{
